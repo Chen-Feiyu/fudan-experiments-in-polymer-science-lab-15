@@ -48,7 +48,7 @@ def analyze(student_id, temperature, key_crysts):
     
 
 def analyze_all(student_id, temps=[120, 110, 100, 90, 80],
-                key_crysts = [0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]):
+                key_crysts=[0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]):
     
     # page86 data processing: part 1
     part1_summary = open('part1_summary.txt', 'w')
